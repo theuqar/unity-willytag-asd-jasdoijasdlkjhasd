@@ -1,0 +1,92 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1826781120632086
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 4866891491676427}
+  - component: {fileID: 114551712489624471}
+  - component: {fileID: 114630101765533465}
+  m_Layer: 0
+  m_Name: GorillaCTFManager
+  m_TagString: GorillaGameManager
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4866891491676427
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1826781120632086}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -43.70638, y: 2.8020213, z: -36.71805}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!114 &114551712489624471
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1826781120632086}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 179a9dd8345b21e55c0799e55ab0312c, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  stepVolumeMax: 0.2
+  stepVolumeMin: 0.05
+  fastJumpLimit: 7.5
+  fastJumpMultiplier: 1.6
+  slowJumpLimit: 6
+  slowJumpMultiplier: 1.5
+  sendReport: 0
+  suspiciousPlayerId:
+  suspiciousPlayerName:
+  suspiciousReason:
+  reportedPlayers: []
+  roomSize: 0
+  lastCheck: 0
+  checkCooldown: 3
+  userDecayTime: 15
+  tempString:
+  startingToLookForFriend: 0
+  timeToSpendLookingForFriend: 10
+  successfullyFoundFriend: 0
+  takeMaster: 0
+  testAssault: 0
+  endGameManually: 0
+  returnPhotonView: {fileID: 0}
+  returnRig: {fileID: 0}
+--- !u!114 &114630101765533465
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1826781120632086}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5ab8f401ece3e057ce511d64ce84d618, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  Group: 0
+  prefixField: -1
+  Synchronization: 0
+  OwnershipTransfer: 0
+  observableSearch: 0
+  ObservedComponents:
+  - {fileID: 0}
+  sceneViewId: 0
+  InstantiationId: 0
+  isRuntimeInstantiated: 0

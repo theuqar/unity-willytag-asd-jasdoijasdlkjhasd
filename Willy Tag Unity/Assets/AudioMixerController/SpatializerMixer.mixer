@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!241 &24100000
+AudioMixerController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: SpatializerMixer
+  m_OutputGroup: {fileID: 0}
+  m_MasterGroup: {fileID: 24300000, guid: c8877cda94133314e9518daf6caab159, type: 2}
+  m_Snapshots:
+  - {fileID: 24500000, guid: df9fe3b24bd688f44906c7b91b75c409, type: 2}
+  - {fileID: 24500000, guid: 132c08387aa62274980cf4cf56662ed6, type: 2}
+  m_StartSnapshot: {fileID: 24500000, guid: df9fe3b24bd688f44906c7b91b75c409, type: 2}
+  m_SuspendThreshold: -80
+  m_EnableSuspend: 1
+  m_UpdateMode: 0
+  m_ExposedParameters: []
+  m_AudioMixerGroupViews: []
+  m_CurrentViewIndex: 0
+  m_TargetSnapshot: {fileID: 0}

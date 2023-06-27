@@ -1,0 +1,94 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1549221318636917
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4659722409500458}
+  - component: {fileID: 114031838782950591}
+  - component: {fileID: 4994159862588669848}
+  m_Layer: 0
+  m_Name: gorillaballmanager
+  m_TagString: GorillaGameManager
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4659722409500458
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1549221318636917}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!114 &114031838782950591
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1549221318636917}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5ec7a65cc06dde130720fc41427512a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  stepVolumeMax: 0.2
+  stepVolumeMin: 0.05
+  fastJumpLimit: 6.5
+  fastJumpMultiplier: 1.1
+  slowJumpLimit: 6.5
+  slowJumpMultiplier: 1.1
+  sendReport: 0
+  suspiciousPlayerId: 
+  suspiciousPlayerName: 
+  suspiciousReason: 
+  reportedPlayers: []
+  roomSize: 5
+  lastCheck: 0
+  checkCooldown: 3
+  userDecayTime: 15
+  tempString: 
+  startingToLookForFriend: 0
+  timeToSpendLookingForFriend: 10
+  successfullyFoundFriend: 0
+  takeMaster: 0
+  testAssault: 0
+  endGameManually: 0
+  returnPhotonView: {fileID: 4994159862588669848}
+  returnRig: {fileID: 0}
+  ballAnchor: {x: -77, y: 13, z: -76}
+--- !u!114 &4994159862588669848
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1549221318636917}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa584fbee541324448dd18d8409c7a41, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ObservedComponentsFoldoutOpen: 1
+  Group: 0
+  prefixField: -1
+  Synchronization: 3
+  OwnershipTransfer: 0
+  observableSearch: 2
+  ObservedComponents: []
+  sceneViewId: 0
+  InstantiationId: 0
+  isRuntimeInstantiated: 0

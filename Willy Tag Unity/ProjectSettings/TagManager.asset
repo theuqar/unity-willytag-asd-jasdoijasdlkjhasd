@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - SceneChanger
+  - PlayerOffset
+  - GorillaTagManager
+  - GorillaTagCollider
+  - GorillaPlayer
+  - GorillaObject
+  - GorillaGameManager
+  - GorillaCosmetic
+  - Bullet
+  - Hand
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Gorilla Body Collider
+  - Gorilla Object
+  - Gorilla Hand
+  - Gorilla Trigger
+  - Camera Scene Trigger
+  - Gorilla Head
+  - Gorilla Tag Collider
+  - Gorilla Boundary
+  - Gorilla Spectator
+  - Mirror
+  - GorillaInteractable
+  - GorillaFriend
+  - GorillaParticle
+  - GorillaCosmetics
+  - MirrorOnly
+  - GorillaThrowable
+  - GorillaThrowHand
+  - GorillaCosmeticParticle
+  - GorillaZone
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
