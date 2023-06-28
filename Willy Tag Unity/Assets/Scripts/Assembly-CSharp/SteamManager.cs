@@ -58,7 +58,7 @@ public class SteamManager : MonoBehaviour
 		{
 			if (SteamAPI.RestartAppIfNecessary(AppId_t.Invalid))
 			{
-				Application.Quit();
+			
 				return;
 			}
 		}
